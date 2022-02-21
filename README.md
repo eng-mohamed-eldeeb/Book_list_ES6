@@ -8,6 +8,7 @@
 > This site contans
 >- An add form that adds the books
 >- A remove button that is attached to each list item removs the book from the list
+>- There is a date and time at the buttom of the page
 
 ![screenshot](./img/Screenshot.png)
 
@@ -16,7 +17,7 @@ Additional description about the project and its features.
 
 ## live demo
 
-- project: (https://eng-mohamed-eldeeb.github.io/BookList/)
+- project: (https://eng-mohamed-eldeeb.github.io/Book_list_ES6/)
 
 ## Install
 
@@ -39,7 +40,7 @@ Additional description about the project and its features.
 
 ## Authors
 
-👤 **MOHAMED EL DEEB** with **Walker**
+👤 **MOHAMED EL DEEB**
 
 - GitHub: [@githubhandle](https://github.com/eng-mohamed-eldeeb)
 - Twitter: [@twitterhandle](https://https://twitter.com/eldeeb_3o)
