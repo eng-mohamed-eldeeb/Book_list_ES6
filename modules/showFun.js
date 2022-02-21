@@ -1,5 +1,5 @@
 const booksUL = document.querySelector('.book-list');
-export default function show() {
+const show = () =>  {
   let bookId = 0;
   let current = localStorage.getItem('books');
   current = JSON.parse(current);
@@ -32,3 +32,5 @@ export default function show() {
     });
   }
 }
+
+export default show;
