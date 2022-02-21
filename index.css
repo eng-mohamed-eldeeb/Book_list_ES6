@@ -198,3 +198,14 @@ ul {
   padding: 40px 0 0 10%;
   list-style: disc;
 }
+
+footer {
+  margin: 50vh 20px 20px 20px;
+  height: 70px;
+  text-align: center;
+  border: 3px solid rgb(25, 202, 164, 0.6);
+}
+
+#dateAndTime {
+  margin: 24px 0 0 0;
+}

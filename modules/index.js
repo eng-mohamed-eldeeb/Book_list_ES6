@@ -1,5 +1,6 @@
 import Book from './books.js';
 import show from './showFun.js';
+// const { DateTime } = require("luxon");
 
 const titleValue = document.getElementById('title');
 const authorValue = document.getElementById('author');
@@ -70,3 +71,11 @@ spans.forEach((e) => {
     }
   });
 });
+
+const { DateTime } = window.luxon;
+
+const now = DateTime.now().toString();
+
+const dateAndTime = document.getElementById('dateAndTime');
+
+dateAndTime.innerText = `Time: ${now}`;
