@@ -1,10 +1,10 @@
+import Book from './books.js';
+import show from './showFun.js';
+
 const titleValue = document.getElementById('title');
 const authorValue = document.getElementById('author');
 const booksUL = document.querySelector('.book-list');
-import Book from './books.js';
-import show from './showFun.js';
 const form = document.querySelector('#abbBookForm');
-
 
 if (localStorage.getItem('books') != null) {
   show();
