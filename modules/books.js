@@ -1,3 +1,5 @@
+import show from './showFun.js';
+
 let bookArray = [];
 export default class Book {
   constructor() {

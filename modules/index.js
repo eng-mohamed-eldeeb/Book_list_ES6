@@ -21,7 +21,11 @@ form.addEventListener('submit', (e) => {
 });
 
 booksUL.addEventListener('click', (e) => {
-  e.target.className === 'delete' ? newBook.deleteBook(e.target.parentNode.className) : show();
+  if (e.target.className === 'delete') {
+    newBook.deleteBook(e.target.parentNode.className);
+  } else {
+    show();
+  }
 });
 
 const list = document.querySelector('.asesomeBooks');
